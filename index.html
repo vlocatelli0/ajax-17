@@ -1,10 +1,9 @@
 |<!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
 <html>
     <head>
         <script>
             function loadDoc(){
-                constxhttp = XMLHtpRequest();
+                const xhttp = new XMLHtpRequest();
                 xhttp.onload = function(){
                     document.getElementById("demo").innerHTML = this.responseText;
                 }
